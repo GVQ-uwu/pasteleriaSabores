@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF5E1; /* crema pastel */
+  color: #5D4037; /* marrón oscuro */
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #FFC0CB; /* rosa suave */
+  color: #5D4037;
+  font-family: 'Pacifico', cursive;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5D4037;
+  font-family: 'Lato', sans-serif;
+}
+
+header .cart {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Login */
+.user-links {
+  text-align: right;
+  padding: 10px 30px;
+}
+
+.user-links a {
+  color: #8B4513; /* chocolate */
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFEFEA;
+  padding: 40px;
+  border-bottom: 3px solid #FFC0CB;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  border: none;
+  background: #FFC0CB;
+  color: #5D4037;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.hero-img {
+  width: 40%;
+  height: 200px;
+  background: #fff;
+  border: 3px dashed #8B4513;
+}
+
+/* Productos */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.producto .img {
+  width: 100%;
+  height: 120px;
+  background: #FFE4E1;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.producto .titulo {
+  text-decoration: none;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+.producto .precio {
+  font-weight: bold;
+  color: #5D4037;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #FFC0CB;
+  padding: 20px 30px;
+  font-size: 14px;
+  color: #5D4037;
+}
+
+.footer-left a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #5D4037;
+}
+
+.footer-right input {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

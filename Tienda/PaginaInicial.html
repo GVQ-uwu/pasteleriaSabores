@@ -4,16 +4,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasteleria Sabores</title>
-    <!-- Icon -->
+    <title>Pastelería Mil Sabores</title>
+
+    <!-- Iconos -->
     <link rel="icon" sizes="192x192" href="Img/iconPasteleria.png" type="image/x-icon" />
     <link rel="shortcut icon" href="Img/iconPasteleria.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="Img/iconPasteleria.png" type="image/x-icon" />
 
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="menu.css">
 </head>
 
 <body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">🍰 Mil Sabores</div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <div class="cart">🛒 Carrito (0)</div>
+    </header>
 
+    <!-- Login -->
+    <div class="user-links">
+        <a href="#">Iniciar sesión</a> |
+        <a href="#">Registrar usuario</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Pastelería Mil Sabores</h1>
+            <p>
+                Celebra la dulzura de la vida con nosotros 🎉<br>
+                Tortas, postres y productos únicos con tradición y calidad desde hace 50 años.
+            </p>
+            <button>Ver Productos</button>
+        </div>
+        <div class="hero-img"></div>
+    </section>
+
+    <!-- Catálogo de productos -->
+    <section class="productos">
+        <div class="producto">
+            <div class="img"></div>
+            <p class="atributos">Torta Cuadrada</p>
+            <a href="#" class="titulo">Torta de Chocolate</a>
+            <p class="precio">$45.000 CLP</p>
+        </div>
+
+        <div class="producto">
+            <div class="img"></div>
+            <p class="atributos">Torta Circular</p>
+            <a href="#" class="titulo">Torta de Vainilla</a>
+            <p class="precio">$40.000 CLP</p>
+        </div>
+
+        <div class="producto">
+            <div class="img"></div>
+            <p class="atributos">Postre Individual</p>
+            <a href="#" class="titulo">Mousse de Chocolate</a>
+            <p class="precio">$5.000 CLP</p>
+        </div>
+
+        <div class="producto">
+            <div class="img"></div>
+            <p class="atributos">Vegano</p>
+            <a href="#" class="titulo">Torta Vegana</a>
+            <p class="precio">$50.000 CLP</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <p>🍰 Mil Sabores</p>
+            <a href="#">Tortas Cuadradas</a> |
+            <a href="#">Tortas Circulares</a> |
+            <a href="#">Postres Individuales</a>
+            <div class="cards">💳 VISA • MASTERCARD • AMEX</div>
+        </div>
+
+        <div class="footer-right">
+            <p>Suscríbete y recibe ofertas dulces 💌</p>
+            <input type="email" placeholder="Tu correo electrónico">
+            <button>Suscribirse</button>
+        </div>
+    </footer>
 </body>
 
 </html>
